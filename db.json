@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "isadmin": true
+    },
+    {
+      "id": 2,
+      "name": "user1",
+      "isadmin": false
+    },
+    {
+      "id": 3,
+      "name": "user2",
+      "isadmin": false
+    },
+    {
+      "id": 4,
+      "name": "sadasd",
+      "isadmin": false
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "text": "Первая заметка",
+      "user_id": 2
+    }
+  ]
+}
