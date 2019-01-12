@@ -1,4 +1,13 @@
 <h2>Заметки</h2>
+<p>Текущий пользователь: {{currentUser.name}}</p>
+<div>
+  <h3>Добавить заметку</h3>
+  <textarea class="form-control" [(ngModel)]="newNote.text"></textarea>
+  <button (click)="onAdd()">Добавить</button>
+</div>
+<h3>Все заметки</h3>
 <div *ngFor="let note of notes">
-  {{note.text}}
+  <b>{{note.id}} </b>
+  <span>{{note.text}}</span>
+  <i> Автор: {{note.userId}}</i>
 </div>

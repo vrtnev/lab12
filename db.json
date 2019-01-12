@@ -19,6 +19,16 @@
       "id": 4,
       "name": "sadasd",
       "isadmin": false
+    },
+    {
+      "id": 5,
+      "name": "sdsad222222",
+      "isadmin": false
+    },
+    {
+      "id": 6,
+      "name": "vrtnev",
+      "isadmin": false
     }
   ],
   "notes": [
@@ -26,6 +36,38 @@
       "id": 1,
       "text": "Первая заметка",
       "user_id": 2
+    },
+    {
+      "id": 2,
+      "text": "asdas",
+      "userId": null
+    },
+    {
+      "id": 3,
+      "text": "asdasd323",
+      "userId": null
+    },
+    {
+      "id": 4,
+      "text": "asd",
+      "userId": null
+    },
+    {
+      "id": 5,
+      "text": "asdasd"
+    },
+    {
+      "id": 6,
+      "text": "asdasd"
+    },
+    {
+      "id": 7,
+      "text": "vvv"
+    },
+    {
+      "id": 8,
+      "text": "фывфыв",
+      "userId": null
     }
   ]
 }

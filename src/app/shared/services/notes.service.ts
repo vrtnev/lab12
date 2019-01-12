@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
 import {BaseApi} from '../core/base-api';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
-import {User} from '../models/user.model';
+import {Note} from '../models/note.model';
 
 @Injectable({
   providedIn: 'root'
 })
-export class NotesService extends BaseApi{
+export class NotesService extends BaseApi {
 
   options: HttpHeaders;
   constructor(
@@ -21,11 +21,11 @@ export class NotesService extends BaseApi{
     return this.get('notes', this.options).toPromise();
   }
 
-  async postNote(data: User) {
-    return this.post('users', data, this.options).toPromise();
+  async postNote(data: Note) {
+    return this.post('notes', data, this.options).toPromise();
   }
 
   deleteNoteById(id) {
-    return this.delete('notes/'+id, this.options).toPromise();
+    return this.delete('notes/' + id, this.options).toPromise();
   }
 }
